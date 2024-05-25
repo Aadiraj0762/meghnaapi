@@ -5,58 +5,76 @@ const mongoose = require("mongoose");
 
 // Add a store
 const addStore = async (req, res) => {
-  const store = new Store({
-    storeId: req.body.storeId,
-    storeName: req.body.storeName,
-    addressLine: req.body.addressLine,
-    area: req.body.area,
-    city: req.body.city,
-    state: req.body.state,
-    pinCode: req.body.pinCode,
-    landmark: req.body.landmark,
-    storeOpenTime: req.body.storeOpenTime,
-    storeCloseTime: req.body.storeCloseTime,
-    radius: req.body.radius,
-    status: req.body.status,
-    manager: req.body.manager,
-    user: req.body.user,
-    landline: req.body.landline,
-    latitude: req.body.latitude,
-    longitude: req.body.longitude,
-    storeImage: req.body.storeImage,
-  });
+  const {
+    storeName,
+    addressLine,
+    area,
+    city,
+    state,
+    pinCode,
+    landmark,
+    storeOpenTime,
+    storeCloseTime,
+    radius,
+    status,
+    manager,
+    user,
+    landline,
+    latitude,
+    longitude,
+    storeImage,
+  } = req.body;
 
-  store.save((err) => {
-    if (err) {
-      res.status(500).json({ error: err });
-    } else {
-      res.json(store);
-    }
-  });
+  try {
+    const store = new Store({
+      storeName,
+      addressLine,
+      area,
+      city,
+      state,
+      pinCode,
+      landmark,
+      storeOpenTime,
+      storeCloseTime,
+      radius,
+      status,
+      manager,
+      user,
+      landline,
+      latitude,
+      longitude,
+      storeImage,
+    });
+
+    await store.save();
+    res.json(store);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 };
 
 // Get all stores
-  const getAllStores = async (req, res) => {
+const getAllStores = async (req, res) => {
   Store.find()
-    .then(stores => {
+    .then((stores) => {
       res.json(stores);
     })
-    .catch(err => {
+    .catch((err) => {
       res.status(500).json({ error: err });
     });
 };
 
 // Get a store by ID
-  const getStoreById = async (req, res) => {
+const getStoreById = async (req, res) => {
   Store.findById(req.params.id)
-    .then(store => {
+    .then((store) => {
       if (!store) {
         res.status(404).json({ message: "Store not found" });
       } else {
         res.json(store);
       }
     })
-    .catch(err => {
+    .catch((err) => {
       res.status(500).json({ error: err });
     });
 };
@@ -67,14 +85,14 @@ const updateStore = async (req, res) => {
   const updateData = req.body;
 
   Store.findByIdAndUpdate(id, updateData, { new: true })
-    .then(store => {
+    .then((store) => {
       if (!store) {
         res.status(404).json({ message: "Store not found" });
       } else {
         res.json(store);
       }
     })
-    .catch(err => {
+    .catch((err) => {
       res.status(500).json({ error: err });
     });
 };
@@ -86,7 +104,7 @@ const deleteStore = async (req, res) => {
     .then(() => {
       res.json({ message: "Store deleted successfully" });
     })
-    .catch(err => {
+    .catch((err) => {
       res.status(500).json({ error: err });
     });
 };
@@ -113,6 +131,5 @@ module.exports = {
   getStoreById,
   updateStore,
   deleteStore,
-   getStoresByRadius,
-
+  getStoresByRadius,
 };

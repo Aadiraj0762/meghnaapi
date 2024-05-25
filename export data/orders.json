@@ -1,0 +1,472 @@
+[{
+  "_id": {
+    "$oid": "660308a81c7bff20bc75fa50"
+  },
+  "cart": [
+    {
+      "prices": {
+        "discount": 0,
+        "originalPrice": 6.39,
+        "price": 6.39
+      },
+      "categories": [
+        "632ab1e04d87ff2494210a6a"
+      ],
+      "image": [
+        "https://i.postimg.cc/2jbLvMvC/ahmed-sugar-free-Orange-jelly-375-gm.webp"
+      ],
+      "tag": [
+        "[\"organic food\",\"guava-jelly\"]"
+      ],
+      "variants": [],
+      "status": "show",
+      "_id": "644500c2839a5e0c2f5c179b",
+      "slug": "sugar-free-Orange-jelly",
+      "sku": "",
+      "barcode": "",
+      "productId": "",
+      "title": "Sugar Free Orange Jelly",
+      "description": {
+        "en": "Organic food is food produced by methods complying with the standards of organic farming. Standards vary worldwide, but organic farming features practices that cycle resources, promote ecological balance, and conserve biodiversity."
+      },
+      "category": {
+        "_id": "632ab1e04d87ff2494210a6a",
+        "name": {
+          "en": "Jam & Jelly"
+        }
+      },
+      "stock": 653,
+      "isCombination": false,
+      "__v": 0,
+      "createdAt": "2023-04-23T09:56:18.441Z",
+      "updatedAt": "2023-04-23T09:56:18.441Z",
+      "id": "644500c2839a5e0c2f5c179b",
+      "variant": {
+        "discount": 0,
+        "originalPrice": 6.39,
+        "price": 6.39
+      },
+      "price": 6.39,
+      "originalPrice": 6.39,
+      "quantity": 3,
+      "itemTotal": 19.169999999999998
+    }
+  ],
+  "discount": 0,
+  "user_info": {
+    "name": "j d",
+    "contact": "7897897890",
+    "email": "test@gmail.com",
+    "address": "test ",
+    "country": "us",
+    "city": "street",
+    "zipCode": "123123"
+  },
+  "shippingOption": "UPS",
+  "paymentMethod": "Cash",
+  "status": "Delivered",
+  "subTotal": 19.169999999999998,
+  "shippingCost": 20,
+  "total": 39.17,
+  "user": {
+    "$oid": "65f4d05eb9be5b3dac6cac39"
+  },
+  "createdAt": {
+    "$date": "2024-03-26T17:40:56.249Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-26T17:43:58.771Z"
+  },
+  "invoice": 10000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603ba41c400b32c6849e22c"
+  },
+  "cart": [
+    {
+      "prices": {
+        "discount": 0,
+        "originalPrice": 6.39,
+        "price": 6.39
+      },
+      "categories": [
+        "632ab1e04d87ff2494210a6a"
+      ],
+      "image": [
+        "https://i.postimg.cc/2jbLvMvC/ahmed-sugar-free-Orange-jelly-375-gm.webp"
+      ],
+      "tag": [
+        "[\"organic food\",\"guava-jelly\"]"
+      ],
+      "variants": [],
+      "status": "show",
+      "_id": "644500c2839a5e0c2f5c179b",
+      "slug": "sugar-free-Orange-jelly",
+      "sku": "",
+      "barcode": "",
+      "productId": "",
+      "title": "Sugar Free Orange Jelly",
+      "description": {
+        "en": "Organic food is food produced by methods complying with the standards of organic farming. Standards vary worldwide, but organic farming features practices that cycle resources, promote ecological balance, and conserve biodiversity."
+      },
+      "category": {
+        "_id": "632ab1e04d87ff2494210a6a",
+        "name": {
+          "en": "Jam & Jelly"
+        }
+      },
+      "stock": 650,
+      "isCombination": false,
+      "__v": 0,
+      "createdAt": "2023-04-23T09:56:18.441Z",
+      "updatedAt": "2024-03-26T17:40:58.524Z",
+      "sales": 3,
+      "id": "644500c2839a5e0c2f5c179b",
+      "variant": {
+        "discount": 0,
+        "originalPrice": 6.39,
+        "price": 6.39
+      },
+      "price": 6.39,
+      "originalPrice": 6.39,
+      "quantity": 1,
+      "itemTotal": 6.39
+    }
+  ],
+  "discount": 0,
+  "user_info": {
+    "name": "j t",
+    "contact": "7897897890",
+    "email": "dibet23648@storesr.com",
+    "address": "er",
+    "country": "er",
+    "city": "re",
+    "zipCode": "212121"
+  },
+  "shippingOption": "UPS",
+  "paymentMethod": "Card",
+  "status": "Cancel",
+  "subTotal": 6.39,
+  "shippingCost": 20,
+  "total": 26.39,
+  "cardInfo": {
+    "id": "pi_3OyposGgsBFeLLYw1IGdcWuf",
+    "object": "payment_intent",
+    "amount": 2639,
+    "amount_capturable": 0,
+    "amount_received": 0,
+    "application": null,
+    "application_fee_amount": null,
+    "automatic_payment_methods": {
+      "allow_redirects": "always",
+      "enabled": true
+    },
+    "canceled_at": null,
+    "cancellation_reason": null,
+    "capture_method": "automatic",
+    "charges": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges?payment_intent=pi_3OyposGgsBFeLLYw1IGdcWuf"
+    },
+    "client_secret": "pi_3OyposGgsBFeLLYw1IGdcWuf_secret_ePvQkSVuma8W9WNydqiapqx2m",
+    "confirmation_method": "automatic",
+    "created": 1711520322,
+    "currency": "usd",
+    "customer": null,
+    "description": "This is Kachabazar payment with Stripe!",
+    "invoice": null,
+    "last_payment_error": null,
+    "latest_charge": null,
+    "livemode": false,
+    "next_action": null,
+    "on_behalf_of": null,
+    "payment_method": null,
+    "payment_method_configuration_details": null,
+    "payment_method_options": {
+      "card": {
+        "installments": null,
+        "mandate_options": null,
+        "network": null,
+        "request_three_d_secure": "automatic"
+      }
+    },
+    "payment_method_types": [
+      "card"
+    ],
+    "processing": null,
+    "receipt_email": null,
+    "review": null,
+    "setup_future_usage": null,
+    "shipping": null,
+    "source": null,
+    "statement_descriptor": null,
+    "statement_descriptor_suffix": null,
+    "status": "requires_payment_method",
+    "transfer_data": null,
+    "transfer_group": null
+  },
+  "user": {
+    "$oid": "65f4d05eb9be5b3dac6cac39"
+  },
+  "createdAt": {
+    "$date": "2024-03-27T06:18:41.589Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-28T05:43:00.858Z"
+  },
+  "invoice": 10001,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6605064c62d36e322cacacb1"
+  },
+  "cart": [
+    {
+      "prices": {
+        "discount": 0,
+        "originalPrice": 62.5,
+        "price": 62.5
+      },
+      "categories": [
+        "62cfab4b484d89068aa7a7ff",
+        "632ab4524d87ff2494210b19",
+        "632ab1e04d87ff2494210a6a"
+      ],
+      "image": [
+        "https://i.postimg.cc/hhRB7fmQ/ahmed-sugar-free-guava-jelly-375-gm.webp"
+      ],
+      "tag": [
+        "[\"organic food\",\"guava-jelly\"]"
+      ],
+      "variants": [],
+      "status": "show",
+      "_id": "644500c2839a5e0c2f5c1798",
+      "slug": "sugar-free-guava-jelly",
+      "sku": "",
+      "barcode": "",
+      "productId": "639dc0f5c2fce72b697281e6",
+      "title": "Sugar Free Guava Jelly",
+      "description": {
+        "en": "Organic food is food produced by methods complying with the standards of organic farming. Standards vary worldwide, but organic farming features practices that cycle resources, promote ecological balance, and conserve biodiversity."
+      },
+      "category": {
+        "_id": "632ab1e04d87ff2494210a6a",
+        "name": {
+          "en": "Jam & Jelly"
+        }
+      },
+      "stock": 459,
+      "isCombination": false,
+      "__v": 0,
+      "createdAt": "2023-04-23T09:56:18.441Z",
+      "updatedAt": "2023-04-23T09:56:18.441Z",
+      "id": "644500c2839a5e0c2f5c1798",
+      "variant": {
+        "discount": 0,
+        "originalPrice": 62.5,
+        "price": 62.5
+      },
+      "price": 62.5,
+      "originalPrice": 62.5,
+      "quantity": 1,
+      "itemTotal": 62.5
+    }
+  ],
+  "discount": 0,
+  "user_info": {
+    "name": "j t",
+    "contact": "7897897890",
+    "email": "dibet23648@storesr.com",
+    "address": "er",
+    "country": "er",
+    "city": "re",
+    "zipCode": "212121"
+  },
+  "shippingOption": "FedEx",
+  "paymentMethod": "Cash",
+  "status": "Cancel",
+  "subTotal": 62.5,
+  "shippingCost": 60,
+  "total": 122.5,
+  "user": {
+    "$oid": "6605062062d36e322cacac68"
+  },
+  "createdAt": {
+    "$date": "2024-03-28T05:55:24.152Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-28T05:56:49.650Z"
+  },
+  "invoice": 10002,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ceb44a8c12826689ae846"
+  },
+  "cart": [
+    {
+      "prices": {
+        "price": 350,
+        "originalPrice": 399,
+        "discount": 49
+      },
+      "categories": [
+        "658c217af4263d34c8047d4a"
+      ],
+      "image": [
+        "https://res.cloudinary.com/djqex7eae/image/upload/v1703764680/image/Masala_1.png"
+      ],
+      "tag": [
+        "[]"
+      ],
+      "variants": [],
+      "status": "show",
+      "_id": "658d62ec7f52af1dec03882f",
+      "productId": "658d62ec7f52af1dec03882e",
+      "sku": "",
+      "barcode": "",
+      "title": "masala chickens",
+      "description": {
+        "en": "masala chicken spread"
+      },
+      "slug": "masala-chickens",
+      "category": {
+        "_id": "658c217af4263d34c8047d4a",
+        "name": {
+          "en": "Chicken"
+        }
+      },
+      "stock": 1,
+      "isCombination": false,
+      "createdAt": "2023-12-28T11:58:37.013Z",
+      "updatedAt": "2024-03-26T18:36:01.171Z",
+      "__v": 2,
+      "id": "658d62ec7f52af1dec03882f",
+      "variant": {
+        "price": 350,
+        "originalPrice": 399,
+        "discount": 49
+      },
+      "price": 350,
+      "originalPrice": 399,
+      "quantity": 1,
+      "itemTotal": 350
+    }
+  ],
+  "discount": 0,
+  "user_info": {
+    "name": "fd fr",
+    "contact": "7897897890",
+    "email": "narayaneaadiraj@gmail.com",
+    "address": "t6u",
+    "country": "India",
+    "city": "Bangalore HQ",
+    "zipCode": "560070"
+  },
+  "shippingOption": "FedEx",
+  "paymentMethod": "Cash",
+  "status": "Pending",
+  "subTotal": 350,
+  "shippingCost": 60,
+  "total": 410,
+  "user": {
+    "$oid": "661ce65ea8c12826689ae81d"
+  },
+  "createdAt": {
+    "$date": "2024-04-15T08:54:28.175Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-15T08:54:28.175Z"
+  },
+  "invoice": 10003,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fe16b021b80320c8929b6"
+  },
+  "cart": [
+    {
+      "prices": {
+        "discount": 0,
+        "originalPrice": 6.39,
+        "price": 6.39
+      },
+      "categories": [
+        "632ab1e04d87ff2494210a6a"
+      ],
+      "image": [
+        "https://i.postimg.cc/2jbLvMvC/ahmed-sugar-free-Orange-jelly-375-gm.webp"
+      ],
+      "tag": [
+        "[\"organic food\",\"guava-jelly\"]"
+      ],
+      "variants": [],
+      "status": "show",
+      "_id": "644500c2839a5e0c2f5c179b",
+      "slug": "sugar-free-Orange-jelly",
+      "sku": "",
+      "barcode": "",
+      "productId": "",
+      "title": "Sugar Free Orange Jelly",
+      "description": {
+        "en": "Organic food is food produced by methods complying with the standards of organic farming. Standards vary worldwide, but organic farming features practices that cycle resources, promote ecological balance, and conserve biodiversity."
+      },
+      "category": {
+        "_id": "632ab1e04d87ff2494210a6a",
+        "name": {
+          "en": "Jam & Jelly"
+        }
+      },
+      "stock": 649,
+      "isCombination": false,
+      "__v": 0,
+      "createdAt": "2023-04-23T09:56:18.441Z",
+      "updatedAt": "2024-03-27T06:18:42.310Z",
+      "sales": 4,
+      "id": "644500c2839a5e0c2f5c179b",
+      "variant": {
+        "discount": 0,
+        "originalPrice": 6.39,
+        "price": 6.39
+      },
+      "price": 6.39,
+      "originalPrice": 6.39,
+      "quantity": 7,
+      "itemTotal": 44.73
+    }
+  ],
+  "discount": 0,
+  "user_info": {
+    "name": "fd fr",
+    "contact": "07897897897",
+    "email": "narayaneaadiraj@gmail.com",
+    "address": "fr",
+    "country": "India",
+    "city": "Bangalore HQ",
+    "zipCode": "560070"
+  },
+  "paymentMethod": "Cash",
+  "status": "Pending",
+  "subTotal": 44.73,
+  "shippingCost": 0,
+  "total": 44.73,
+  "user": {
+    "$oid": "65f4d05eb9be5b3dac6cac39"
+  },
+  "createdAt": {
+    "$date": "2024-04-17T14:49:15.894Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T14:49:15.894Z"
+  },
+  "invoice": 10004,
+  "__v": 0
+}]

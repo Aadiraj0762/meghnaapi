@@ -291,10 +291,10 @@ const changePassword = async (req, res) => {
 
 const signUpWithProvider = async (req, res) => {
   try {
-    // const { user } = jwt.decode(req.body.params);
-    const user = jwt.decode(req.params.token);
+    const { user } = jwt.decode(req.body.params);
+    // const user = jwt.decode(req.params.token);
 
-    // console.log("user", user);
+    console.log("user", user);
     const isAdded = await Customer.findOne({ email: user.email });
     if (isAdded) {
       const token = signInToken(isAdded);

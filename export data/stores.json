@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "658d67897f52af1dec038893"
+  },
+  "status": "active",
+  "storeImage": [
+    "https://res.cloudinary.com/djqex7eae/image/upload/v1703244685/cld-sample-4.jpg "
+  ],
+  "storeId": "121212",
+  "storeName": "licious",
+  "addressLine": "pune",
+  "area": "wf",
+  "city": "Bangalore",
+  "state": "Karnataka",
+  "pinCode": "560025",
+  "landmark": "frg",
+  "storeOpenTime": "09:30",
+  "storeCloseTime": "22:30",
+  "radius": 400,
+  "manager": "mgr4",
+  "user": "user4",
+  "landline": "7894561230",
+  "latitude": "37.2749",
+  "longitude": "-122.4194",
+  "createdAt": {
+    "$date": "2023-12-28T12:18:17.841Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-28T12:18:17.841Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d72747f52af1dec03889f"
+  },
+  "status": "active",
+  "storeImage": [
+    "https://assets.licious.in/OMS-Category/e7e16d70-0254-a5ec-e470-2ce6c998ec2c/original/1703213056696.png"
+  ],
+  "storeId": "1234567890",
+  "storeName": "My Store",
+  "addressLine": "123 Main St",
+  "area": "Downtown",
+  "city": "Anytown",
+  "state": "CA",
+  "pinCode": "12345",
+  "landmark": "Next to the park",
+  "storeOpenTime": "09:00",
+  "storeCloseTime": "17:00",
+  "radius": 500,
+  "manager": "John Doe",
+  "user": "johndoe@example.com",
+  "landline": "555-1234",
+  "latitude": "37.2749",
+  "longitude": "-122.4194",
+  "createdAt": {
+    "$date": "2023-12-28T13:04:52.145Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-28T13:04:52.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d74327f52af1dec0388aa"
+  },
+  "status": "active",
+  "storeImage": [
+    "https://assets.licious.in/OMS-Category/e7e16d70-0254-a5ec-e470-2ce6c998ec2c/original/1703213056696.png"
+  ],
+  "storeId": "1234567890",
+  "storeName": "My Store",
+  "addressLine": "123 Main St",
+  "area": "Downtown",
+  "city": "Anytown",
+  "state": "CA",
+  "pinCode": "12345",
+  "landmark": "Next to the park",
+  "storeOpenTime": "09:00",
+  "storeCloseTime": "17:00",
+  "radius": 500,
+  "manager": "John Doe",
+  "user": "johndoe@example.com",
+  "landline": "555-1234",
+  "latitude": "37.2749",
+  "longitude": "-122.4194",
+  "createdAt": {
+    "$date": "2023-12-28T13:12:18.624Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-28T13:12:18.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658e61467f52af1dec038912"
+  },
+  "status": "active",
+  "storeImage": [
+    ""
+  ],
+  "storeId": "3546578",
+  "storeName": "licious",
+  "addressLine": "pune",
+  "area": "wf",
+  "city": "Bangalore",
+  "state": "Karnataka",
+  "pinCode": "560025",
+  "landmark": "frgqwdefrsbd",
+  "storeOpenTime": "21:12",
+  "storeCloseTime": "23:02",
+  "radius": 5018,
+  "manager": "dfgh",
+  "user": "wergty",
+  "landline": "7894561230",
+  "latitude": "37.2749",
+  "longitude": "-122.4194",
+  "createdAt": {
+    "$date": "2023-12-29T06:03:50.878Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-29T06:03:50.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f4c0e8b1b1872c1c1b41e8"
+  },
+  "status": "open",
+  "storeImage": [
+    "https://example.com/store-image.png"
+  ],
+  "storeId": "ABC123",
+  "storeName": "Example Store",
+  "addressLine": "123 Example St",
+  "area": "Example Area",
+  "city": "Example City",
+  "state": "Example State",
+  "pinCode": "12345",
+  "landmark": "Near Example Landmark",
+  "storeOpenTime": "08:00 AM",
+  "storeCloseTime": "06:00 PM",
+  "radius": 5,
+  "manager": "John Doe",
+  "user": "Jane Doe",
+  "landline": "+1234567890",
+  "latitude": "50.123456",
+  "longitude": "-75.987654",
+  "createdAt": {
+    "$date": "2024-03-15T21:43:04.722Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-15T21:43:04.722Z"
+  },
+  "__v": 0
+}]

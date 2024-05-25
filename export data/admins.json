@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "658572bc3110a1304866af16"
+  },
+  "status": "Active",
+  "password": "$2a$10$ioQQAHJa5lcUwOWGyvtGG.NxOFZc1apHfjguw.DrCypeHOWKRUnG.",
+  "role": "Admin",
+  "name": {
+    "en": "MeghnaFoods"
+  },
+  "email": "admin@meghnafoods.com",
+  "phone": "7777777777",
+  "image": "https://res.cloudinary.com/djqex7eae/image/upload/v1703682056/image/logo.png",
+  "createdAt": {
+    "$date": "2023-12-22T11:27:56.335Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-26T17:42:56.205Z"
+  },
+  "__v": 0,
+  "joiningData": {
+    "$date": "2023-12-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f4c3bf2a5ee043e447d0d8"
+  },
+  "status": "Active",
+  "password": "$2a$10$1ouBMpesnZR9IKSSOHw0Yun8CMvgtZzoeLNyfaSkXiK4DFWLfRyfG",
+  "role": "Admin",
+  "name": "aadiraj",
+  "email": "narayaneaadiraj@gmail.com",
+  "createdAt": {
+    "$date": "2024-03-15T21:55:11.539Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-15T21:55:11.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620bce1edf7cc34b0890c40"
+  },
+  "status": "Active",
+  "password": "$2a$10$kAyhp3/H2f1FWy70ik0EX./XksdtGxQAZpJJMYwJg4iYrsglqxfVO",
+  "role": "Manager",
+  "name": {
+    "0": "B",
+    "1": "r",
+    "2": "a",
+    "3": "i",
+    "4": "n",
+    "5": " ",
+    "6": "H",
+    "7": ".",
+    "8": " ",
+    "9": "L",
+    "10": "a",
+    "11": "n",
+    "12": "d",
+    "13": "r",
+    "14": "y",
+    "en": "admin"
+  },
+  "email": "superadmin@example.com",
+  "createdAt": {
+    "$date": "2024-04-18T06:25:37.517Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T06:26:20.622Z"
+  },
+  "__v": 0,
+  "image": "https://res.cloudinary.com/djqex7eae/image/upload/v1711640782/image/download%288%29.jpg",
+  "joiningData": {
+    "$date": "2024-04-18T00:00:00.000Z"
+  },
+  "phone": "7894561230"
+}]

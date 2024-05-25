@@ -1,6 +1,6 @@
 require("dotenv").config();
 const stripe = require("stripe")(`${process.env.STRIPE_KEY}` || null); /// use hardcoded key if env not work
-
+// const stripe = require("stripe")("pk_test_51HQTh7LxTrumWuS7ZazxOKdShzwmCFjaKjuHVYBJy9hxeF68db2QKTKMzI6ZaTPw1RnmNlXnkyM9Gf9KXu98ZZzr00lLgvvB5y");
 const mongoose = require("mongoose");
 
 const Order = require("../models/Order");

@@ -1,10 +1,7 @@
 const mongoose = require("mongoose");
 
 const storeSchema = new mongoose.Schema({
-  storeId: {
-    type: String,
-    required: true,
-  },
+
   storeName: {
     type: String,
     required: true,
@@ -47,17 +44,15 @@ const storeSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    default: "show",
+    default: "open",
     enum: ["open", "closed","active","inactive"],
   },
   manager: {
-    // type: mongoose.Schema.Types.ObjectId,
     type: String,
     ref: "User",
     required: true,
   },
   user: {
-    // type: mongoose.Schema.Types.ObjectId,
     type: String,
     ref: "User",
     required: true,

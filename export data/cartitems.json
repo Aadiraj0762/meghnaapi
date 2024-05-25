@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "65f7f6ebc5c162272479d17a"
+  },
+  "quantity": 1,
+  "productId": {
+    "$oid": "65f58714229b202f7c051ce8"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fab39badf236063c5f9644"
+  },
+  "quantity": 1,
+  "productId": {
+    "$oid": "658c1f56f4263d34c8047c7d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fabff4adf236063c5f9894"
+  },
+  "quantity": 5,
+  "productId": {
+    "$oid": "644500c2839a5e0c2f5c179a"
+  },
+  "__v": 0
+}]
